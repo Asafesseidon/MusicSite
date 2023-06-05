@@ -1,0 +1,74 @@
+* {
+    background-color: grey;
+    color: #333;
+   text-align: center;
+   font-family: 'Supermercado One';
+}
+a{
+    color: indigo;
+    padding: 3vw blue;
+    border: 2vw groove dimgrey;
+    font-style: normal;
+    
+}
+ h1 {
+    /*font-family: 'Franklin Gothic Medium';*/
+    color: royalblue;
+    border: 8px double rgb(71, 81, 82);
+    border-radius: 13px;
+    background-color: darkgrey;
+    margin: 10vw;
+    
+}
+h2, h3 {
+    color: indigo;
+    border: 6.5px groove cadetblue;
+    border-radius: 6.5px;
+    margin: 5vw;
+}
+div {
+    border: 8px double rgb(57, 4, 182);
+    border-radius: 13px;
+    background-color: darkgrey;
+    margin: 2vw 10vw;
+    color: rgb(56, 62, 124);
+}
+h2 a, h3 a {
+    background-color: darkgrey;
+    border: 30vw darkgrey;
+    border-radius: 30vw;
+}
+
+h4, h4 a {
+    background-color: rgb(105, 160, 160);
+    border: 5px groove rgb(105, 160, 160);
+    border-radius: 5px;
+}
+
+img {
+    display: inline;
+    border: 1vw groove royalblue;
+    border-radius:3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+/*Scrollbar layout taked from w3schools.com. /*
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #460a6e;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(42, 116, 151);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 62, 124);
+  }
